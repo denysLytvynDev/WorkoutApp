@@ -9,20 +9,26 @@
 /* Begin PBXBuildFile section */
 		3E4E333E294E72120064D14C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E333D294E72120064D14C /* AppDelegate.swift */; };
 		3E4E3340294E72120064D14C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E333F294E72120064D14C /* SceneDelegate.swift */; };
-		3E4E3342294E72120064D14C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E3341294E72120064D14C /* ViewController.swift */; };
+		3E4E3342294E72120064D14C /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E3341294E72120064D14C /* OverviewController.swift */; };
 		3E4E3345294E72120064D14C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4E3343294E72120064D14C /* Main.storyboard */; };
 		3E4E334A294E72130064D14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E4E3349294E72130064D14C /* Assets.xcassets */; };
 		3E4E334D294E72130064D14C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4E334B294E72130064D14C /* LaunchScreen.storyboard */; };
 		3E4E33582950FB920064D14C /* TapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E33572950FB920064D14C /* TapBarController.swift */; };
 		3E4E335B2950FCB00064D14C /* UIColor + extencion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E335A2950FCB00064D14C /* UIColor + extencion.swift */; };
 		3E4E335E295100540064D14C /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E335D295100540064D14C /* Resources.swift */; };
+		3E4E336029510DEA0064D14C /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E335F29510DEA0064D14C /* NavBarController.swift */; };
+		3E4E3363295112040064D14C /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E3362295112030064D14C /* BaseController.swift */; };
+		3E4E3365295114FA0064D14C /* UIView + extenscsn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E3364295114FA0064D14C /* UIView + extenscsn.swift */; };
+		3E4E336C295117D60064D14C /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E336B295117D60064D14C /* SessionController.swift */; };
+		3E4E336E295117FD0064D14C /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E336D295117FD0064D14C /* ProgressController.swift */; };
+		3E4E33702951180C0064D14C /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E336F2951180C0064D14C /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E4E333A294E72120064D14C /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4E333D294E72120064D14C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E4E333F294E72120064D14C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3E4E3341294E72120064D14C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E4E3341294E72120064D14C /* OverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewController.swift; sourceTree = "<group>"; };
 		3E4E3344294E72120064D14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E4E3349294E72130064D14C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E4E334C294E72130064D14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +36,12 @@
 		3E4E33572950FB920064D14C /* TapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarController.swift; sourceTree = "<group>"; };
 		3E4E335A2950FCB00064D14C /* UIColor + extencion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + extencion.swift"; sourceTree = "<group>"; };
 		3E4E335D295100540064D14C /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		3E4E335F29510DEA0064D14C /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
+		3E4E3362295112030064D14C /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		3E4E3364295114FA0064D14C /* UIView + extenscsn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + extenscsn.swift"; sourceTree = "<group>"; };
+		3E4E336B295117D60064D14C /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
+		3E4E336D295117FD0064D14C /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
+		3E4E336F2951180C0064D14C /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +74,11 @@
 		3E4E333C294E72120064D14C /* WorkoutApp */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E33592950FC8E0064D14C /* Helper */,
 				3E4E33542950F8E40064D14C /* Application */,
-				3E4E3341294E72120064D14C /* ViewController.swift */,
+				3E4E33592950FC8E0064D14C /* Helper */,
+				3E4E3361295111930064D14C /* Controllers */,
 				3E4E3343294E72120064D14C /* Main.storyboard */,
 				3E4E33552950F9280064D14C /* SupportingFiles */,
-				3E4E33572950FB920064D14C /* TapBarController.swift */,
 			);
 			path = WorkoutApp;
 			sourceTree = "<group>";
@@ -97,6 +108,7 @@
 				3E4E335C2950FCC60064D14C /* Extensions */,
 				3E4E335A2950FCB00064D14C /* UIColor + extencion.swift */,
 				3E4E335D295100540064D14C /* Resources.swift */,
+				3E4E3364295114FA0064D14C /* UIView + extenscsn.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -106,6 +118,60 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3E4E3361295111930064D14C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E336A295117770064D14C /* Settings */,
+				3E4E3369295117700064D14C /* Progress */,
+				3E4E33682951176A0064D14C /* Session */,
+				3E4E3367295117630064D14C /* Overview */,
+				3E4E33662951173B0064D14C /* Base */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3E4E33662951173B0064D14C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E33572950FB920064D14C /* TapBarController.swift */,
+				3E4E335F29510DEA0064D14C /* NavBarController.swift */,
+				3E4E3362295112030064D14C /* BaseController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3E4E3367295117630064D14C /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E3341294E72120064D14C /* OverviewController.swift */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+		3E4E33682951176A0064D14C /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E336B295117D60064D14C /* SessionController.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		3E4E3369295117700064D14C /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E336D295117FD0064D14C /* ProgressController.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		3E4E336A295117770064D14C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E336F2951180C0064D14C /* SettingsController.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,12 +245,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E4E3342294E72120064D14C /* ViewController.swift in Sources */,
+				3E4E33702951180C0064D14C /* SettingsController.swift in Sources */,
+				3E4E3342294E72120064D14C /* OverviewController.swift in Sources */,
 				3E4E333E294E72120064D14C /* AppDelegate.swift in Sources */,
 				3E4E3340294E72120064D14C /* SceneDelegate.swift in Sources */,
+				3E4E336029510DEA0064D14C /* NavBarController.swift in Sources */,
+				3E4E336C295117D60064D14C /* SessionController.swift in Sources */,
+				3E4E336E295117FD0064D14C /* ProgressController.swift in Sources */,
 				3E4E335E295100540064D14C /* Resources.swift in Sources */,
 				3E4E33582950FB920064D14C /* TapBarController.swift in Sources */,
+				3E4E3363295112040064D14C /* BaseController.swift in Sources */,
 				3E4E335B2950FCB00064D14C /* UIColor + extencion.swift in Sources */,
+				3E4E3365295114FA0064D14C /* UIView + extenscsn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
