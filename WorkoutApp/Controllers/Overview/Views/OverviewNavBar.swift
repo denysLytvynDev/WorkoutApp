@@ -31,16 +31,16 @@ final class OverviewNavBAr : BaseView {
 }
 
 extension OverviewNavBAr {
-    override func addViews() {
-        super.addViews()
+    override func setupViews() {
+        super.setupViews()
         
         addView(titleLabel)
         addView(addButton)
         addView(allWorkoutsButton)
         addView(weekView)
     }
-    override func layoutView() {
-        super.layoutView()
+    override func constraintViews() {
+        super.constraintViews()
         
         NSLayoutConstraint.activate([
             addButton.topAnchor.constraint(equalTo:  safeAreaLayoutGuide.topAnchor, constant: 8),
@@ -65,8 +65,8 @@ extension OverviewNavBAr {
             
         ])
     }
-    override func configureView() {
-        super.configureView()
+    override func configureAppearance() {
+        super.configureAppearance()
         backgroundColor = .white
         
 //        titleLabel.translatesAutoresizingMaskIntoConstraints = false

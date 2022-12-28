@@ -13,7 +13,7 @@
 		3E4E3345294E72120064D14C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4E3343294E72120064D14C /* Main.storyboard */; };
 		3E4E334A294E72130064D14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E4E3349294E72130064D14C /* Assets.xcassets */; };
 		3E4E334D294E72130064D14C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4E334B294E72130064D14C /* LaunchScreen.storyboard */; };
-		3E4E33582950FB920064D14C /* TapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E33572950FB920064D14C /* TapBarController.swift */; };
+		3E4E33582950FB920064D14C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E33572950FB920064D14C /* TabBarController.swift */; };
 		3E4E335B2950FCB00064D14C /* UIColor + extencion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E335A2950FCB00064D14C /* UIColor + extencion.swift */; };
 		3E4E335E295100540064D14C /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E335D295100540064D14C /* Resources.swift */; };
 		3E4E336029510DEA0064D14C /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E335F29510DEA0064D14C /* NavBarController.swift */; };
@@ -39,7 +39,7 @@
 		3E4E3349294E72130064D14C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E4E334C294E72130064D14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E4E334E294E72130064D14C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E4E33572950FB920064D14C /* TapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarController.swift; sourceTree = "<group>"; };
+		3E4E33572950FB920064D14C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		3E4E335A2950FCB00064D14C /* UIColor + extencion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + extencion.swift"; sourceTree = "<group>"; };
 		3E4E335D295100540064D14C /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		3E4E335F29510DEA0064D14C /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
@@ -148,7 +148,7 @@
 		3E4E33662951173B0064D14C /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E33572950FB920064D14C /* TapBarController.swift */,
+				3E4E33572950FB920064D14C /* TabBarController.swift */,
 				3E4E335F29510DEA0064D14C /* NavBarController.swift */,
 				3E4E3362295112030064D14C /* BaseController.swift */,
 				3E4E337729539DB50064D14C /* BaseView.swift */,
@@ -291,7 +291,7 @@
 				3E4E3374295255040064D14C /* SecondaryButton.swift in Sources */,
 				3E4E336E295117FD0064D14C /* ProgressController.swift in Sources */,
 				3E4E335E295100540064D14C /* Resources.swift in Sources */,
-				3E4E33582950FB920064D14C /* TapBarController.swift in Sources */,
+				3E4E33582950FB920064D14C /* TabBarController.swift in Sources */,
 				3E4E3363295112040064D14C /* BaseController.swift in Sources */,
 				3E4E337829539DB50064D14C /* BaseView.swift in Sources */,
 				3E4E337D295CCFF00064D14C /* WeekdayView.swift in Sources */,
