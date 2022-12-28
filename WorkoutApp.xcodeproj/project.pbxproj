@@ -25,6 +25,9 @@
 		3E4E3374295255040064D14C /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E3373295255040064D14C /* SecondaryButton.swift */; };
 		3E4E337629539D560064D14C /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E337529539D560064D14C /* OverviewNavBar.swift */; };
 		3E4E337829539DB50064D14C /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E337729539DB50064D14C /* BaseView.swift */; };
+		3E4E337B295CCA0A0064D14C /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E337A295CCA0A0064D14C /* WeekView.swift */; };
+		3E4E337D295CCFF00064D14C /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E337C295CCFF00064D14C /* WeekdayView.swift */; };
+		3E4E337F295CD4980064D14C /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E337E295CD4980064D14C /* Date + ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		3E4E3373295255040064D14C /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		3E4E337529539D560064D14C /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 		3E4E337729539DB50064D14C /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		3E4E337A295CCA0A0064D14C /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		3E4E337C295CCFF00064D14C /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
+		3E4E337E295CD4980064D14C /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				3E4E335C2950FCC60064D14C /* Extensions */,
-				3E4E335A2950FCB00064D14C /* UIColor + extencion.swift */,
-				3E4E3364295114FA0064D14C /* UIView + extenscsn.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -122,6 +126,9 @@
 		3E4E335C2950FCC60064D14C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				3E4E335A2950FCB00064D14C /* UIColor + extencion.swift */,
+				3E4E3364295114FA0064D14C /* UIView + extenscsn.swift */,
+				3E4E337E295CD4980064D14C /* Date + ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -185,10 +192,20 @@
 		3E4E3372295254E00064D14C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3E4E3379295CC9FA0064D14C /* WeekView */,
 				3E4E3373295255040064D14C /* SecondaryButton.swift */,
 				3E4E337529539D560064D14C /* OverviewNavBar.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3E4E3379295CC9FA0064D14C /* WeekView */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E337A295CCA0A0064D14C /* WeekView.swift */,
+				3E4E337C295CCFF00064D14C /* WeekdayView.swift */,
+			);
+			path = WeekView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E4E337B295CCA0A0064D14C /* WeekView.swift in Sources */,
+				3E4E337F295CD4980064D14C /* Date + ext.swift in Sources */,
 				3E4E33702951180C0064D14C /* SettingsController.swift in Sources */,
 				3E4E3342294E72120064D14C /* OverviewController.swift in Sources */,
 				3E4E337629539D560064D14C /* OverviewNavBar.swift in Sources */,
@@ -275,6 +294,7 @@
 				3E4E33582950FB920064D14C /* TapBarController.swift in Sources */,
 				3E4E3363295112040064D14C /* BaseController.swift in Sources */,
 				3E4E337829539DB50064D14C /* BaseView.swift in Sources */,
+				3E4E337D295CCFF00064D14C /* WeekdayView.swift in Sources */,
 				3E4E335B2950FCB00064D14C /* UIColor + extencion.swift in Sources */,
 				3E4E3365295114FA0064D14C /* UIView + extenscsn.swift in Sources */,
 			);

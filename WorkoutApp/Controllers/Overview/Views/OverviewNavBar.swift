@@ -13,11 +13,7 @@ final class OverviewNavBAr : BaseView {
     private let allWorkoutsButton = SecondaryButton()
     private let addButton = UIButton()
     
-    private let weekView: UIView  = {
-        let view = UIView()
-        view.backgroundColor = .blue.withAlphaComponent(0.2)
-        return view
-    }()
+    private let weekView = WeekView()
     
     override func layoutSubviews() {
         super.layoutSubviews()
@@ -69,8 +65,8 @@ extension OverviewNavBAr {
             
         ])
     }
-    override func configure() {
-        super.configure()
+    override func configureView() {
+        super.configureView()
         backgroundColor = .white
         
 //        titleLabel.translatesAutoresizingMaskIntoConstraints = false
